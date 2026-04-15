@@ -4,10 +4,6 @@ using UnityEngine;
 
 public class GameControl : MonoBehaviour
 {
-    /* El Script GameControl se encarga del control durante todo el juego, iniciar un nuevo juego,
-     * colocar al personaje, distribuir las piezas en el laberinto, iniciar el timer, etc.
-     * 
-     */
 
     [SerializeField]
     private GameObject[] objectsToFindPrefabs;
@@ -294,7 +290,6 @@ public class GameControl : MonoBehaviour
     
     public void TimeIsUp()
     {
-        //timer reached 0
         GameLost();
     }
 

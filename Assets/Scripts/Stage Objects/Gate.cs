@@ -4,12 +4,6 @@ using UnityEngine;
 
 public class Gate : MonoBehaviour
 {
-    /* Este Script se encarga de controlar la apertura de la puerta.
-     * Cuando el personaje entra en contacto con el Collider, este Script
-     * le pregunta al GameControl si el personaje tiene la llave, en caso afirmativo
-     * la puerta se abre.
-     * 
-     */
 
     private GameControl gameControl;
     private string playerTag="Player";
@@ -56,10 +50,6 @@ public class Gate : MonoBehaviour
             OpenGate();
         }
 
-        /*if (Input.GetKeyDown(KeyCode.O))
-        {
-            OpenGate();
-        }*/
 
     }
 

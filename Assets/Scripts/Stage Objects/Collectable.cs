@@ -4,10 +4,6 @@ using UnityEngine;
 
 public class Collectable : MonoBehaviour
 {
-    /* Todos los items que el personaje puede recoger tienen asignado este script.
-     * Se encarga de determinar el tipo de objeto, avisar al control cuando el personaje
-     * los recoge y se autodestruye.
-     */
 
     public enum Item {CAR,CAMERA,CANNON,BALLOON,EARTH,VIOLIN,KEY};
     

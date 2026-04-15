@@ -4,14 +4,7 @@ using UnityEngine;
 
 public class Timer : MonoBehaviour
 {
-    /* Este Script consiste en un Timer que se inicializa en un tiempo definido por el programador,
-     * indicando los minutos y segundos en el inspector. Le envía la información a la interfaz gráfica para
-     * que actualice el valor en pantalla.
-     * El timer se inicia y se detiene con la orden del GameControl, constantemente lee el estado de pausa
-     * para detener la cuenta cuando el juego está pausado.
-     * Cuando el contador llega a 0, se le informa al GameControl.
-     */
-
+    
     [SerializeField]
     private int gameMinutes;
     [SerializeField]
@@ -23,7 +16,6 @@ public class Timer : MonoBehaviour
     private UserInterface userInterface;
     private float timerCount;
     private bool timerRunning=false;
-    // Start is called before the first frame update
     void Start()
     {
         gameControl = FindObjectOfType<GameControl>();

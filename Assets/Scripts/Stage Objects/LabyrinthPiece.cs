@@ -4,11 +4,6 @@ using UnityEngine;
 
 public class LabyrinthPiece : MonoBehaviour
 {
-    /* Las piezas del laberinto que tienen una región en la que puedan aparecer los objetos a encontrar tienen asignado este Script.
-     * Cada pieza tiene su propia geometría, este script permite establecer, para cada pieza, cómo es la región en la que el objeto puede aparecer.
-     * El GameControl reunirá todos los GameObjects con este Script asignado, seleccionará algunos al azar y les solicitará una posición aleatoria
-     * en la región donde los objetos pueden aparecer.
-     */
 
     [SerializeField]
     private Transform area1position1;

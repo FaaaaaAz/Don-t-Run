@@ -5,11 +5,7 @@ using UnityEngine.UI;
 
 public class UserInterface : MonoBehaviour
 {
-    /* Este Script se encarga de todo lo que tiene que ver con la muestra de información en pantalla,
-     * El cambio entre las distintas pantallas, menú principal, juego, pantalla final y de pausa.
-     * Mostrar los items encontrados, el temporizador, etc.
-     * 
-     */
+    
 
     [Header("Screens")]
 
@@ -98,7 +94,6 @@ public class UserInterface : MonoBehaviour
         SetMenuScreen();
     }
 
-    // Update is called once per frame
     void Update()
     {
         
