@@ -1,0 +1,23 @@
+fileFormatVersion: 2
+guid: 9cc35eee5b9e551469c6e44cfe97a1fa
+TrueTypeFontImporter:
+  externalObjects: {}
+  serializedVersion: 4
+  fontSize: 16
+  forceTextureCase: -2
+  characterSpacing: 0
+  characterPadding: 1
+  includeFontData: 1
+  fontName: Intimacy
+  fontNames:
+  - Intimacy
+  fallbackFontReferences:
+  - {fileID: 12800000, guid: c98e9609fe6a6ac4ea595ab6a5e5026a, type: 3}
+  customCharacters: 
+  fontRenderingMode: 0
+  ascentCalculationMode: 1
+  useLegacyBoundsCalculation: 0
+  shouldRoundAdvanceValue: 1
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
