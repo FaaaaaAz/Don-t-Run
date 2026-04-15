@@ -43,5 +43,6 @@ Encontrar la llave y abrir la puerta para escapar del laberinto.
 
 Fabian Azeñas
 
-<img width="1024" height="1536" alt="ChatGPT Image 14 abr 2026, 11_55_14 p m" src="https://github.com/user-attachments/assets/bfd9d8a1-f661-4254-a2e7-922032b481fd" />
+<img width="1024" height="1536" alt="ChatGPT Image 14 abr 2026, 11_57_46 p m" src="https://github.com/user-attachments/assets/494b67c6-3325-4b61-ac9e-80adb84d6b9c" />
+
 
